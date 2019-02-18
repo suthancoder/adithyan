@@ -6,7 +6,7 @@ puts "READY .... STEADY .... GO!!!"
 20.times do
 
   a = rand(2..11)
-  b = [3,4,5,6,9,10].sample
+  b = [ 3, 4, 4, 4, 5, 6, 6, 6, 9, 10].sample
   puts "#{a} X #{b}"
   c = gets.to_i
   if (a*b) == c
