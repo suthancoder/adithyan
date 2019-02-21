@@ -8,6 +8,8 @@ counter = 0
 
 letter = alphabet.sample
 
+puts "What is the letter value of the letter #{letter}"
+
 answer = gets.chomp.to_i
 
 puts letter.ord - 96
