@@ -1,10 +1,10 @@
 puts "Get ready ... Set ... Go"
 
-zeros = [0, 1, 2, 3, 4]
+zeros = [0, 1, 2, 3]
 counter = 0
 
 
-2.times do
+10.times do
 
   multiplier_array = zeros.select {|num| num > 1}
 
@@ -14,15 +14,16 @@ counter = 0
 
   root_number = (1..99).to_a.sample
 
-  number = root_number**mult_sample
+  number = root_number*(10**mult_sample)
+
+  figure = 10**(divider_array.sample)
 
 
-
-  puts "#{number} X #{figure}"
+  puts "#{number} ÷ #{figure}"
 
   answer = gets.chomp.to_i
 
-  if (number*figure) == answer
+  if (number/figure) == answer
     puts "Correct"
     counter += 1
   else
