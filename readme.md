@@ -1,8 +1,8 @@
 Drills on here
 
 a) Times tables (done)
-b) Letter number (done)
-c) (a) Multiplying in 10s, 100s, 1000s, (done) and (b) Dividing by tens
+b) Letter value (done)
+c) (a) Multiplying in 10s, 100s, 1000s, (done) and (b) Dividing by tens, hundreds (done)
 d) Adding 10s, 100s, 1000s
 e) Adding for place values - big number plus small number
 f) Big times tables (15 x 23)
@@ -11,6 +11,8 @@ h) Big divisions
 i) Subtractions
 j) Fractions
 k) Decimals
+l) Time drills
+m) Coins - least number to make up
 
 
 Word games
