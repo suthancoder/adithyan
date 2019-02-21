@@ -1,14 +1,22 @@
 puts "Get ready ... Set ... Go"
 
-zeros = [10, 100, 1000]
+zeros = [0, 1, 2, 3, 4]
 counter = 0
 
 
-20.times do
+2.times do
 
-  number = rand(1..100).to_i
+  multiplier_array = zeros.select {|num| num > 1}
 
-  figure = zeros.sample
+  mult_sample = multiplier_array.sample
+
+  divider_array = (2..mult_sample).to_a
+
+  root_number = (1..99).to_a.sample
+
+  number = root_number**mult_sample
+
+
 
   puts "#{number} X #{figure}"
 
